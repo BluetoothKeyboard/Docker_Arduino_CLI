@@ -1,8 +1,8 @@
-
+![](https://github.com/BluetoothKeyboard/Docker_Arduino_CLI/workflows/Build%20Docker%20Image/badge.svg)
 
 ## Using the image
 
-The image is available on [docker hub](https://hub.docker.com/repository/docker/jpconstantineau/arduino-cli/general). 
+The image is available on [docker hub](https://hub.docker.com/repository/docker/bluetoothkeyboard/arduino-cli/general). 
 
 To use the docker image, do a docker pull, then you can call the CLI as part of the docker run command.
 
