@@ -1,4 +1,4 @@
-![](https://github.com/BluetoothKeyboard/Docker_Arduino_CLI/workflows/Build%20Docker%20Image/badge.svg)
+![https://github.com/BluetoothKeyboard/Docker_Arduino_CLI/actions](https://github.com/BluetoothKeyboard/Docker_Arduino_CLI/workflows/Build%20Docker%20Image/badge.svg)
 
 ## Using the image
 
@@ -9,7 +9,7 @@ To use the docker image, do a docker pull, then you can call the CLI as part of 
 Note that to see your sketch, the working directory must be mounted in the image.
 
 ```
-docker pull jpconstantineau/arduino-cli
+docker pull bluetoothkeyboard/arduino-cli
 
 docker run -it --mount src=${PWD},target=/mnt,type=bind  jpconstantineau/arduino-cli:latest /arduino-cli
 
