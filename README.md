@@ -11,7 +11,7 @@ Note that to see your sketch, the working directory must be mounted in the image
 ```
 docker pull bluetoothkeyboard/arduino-cli
 
-docker run -it --mount src=${PWD},target=/mnt,type=bind  jpconstantineau/arduino-cli:latest /arduino-cli
+docker run -it --mount src=${PWD},target=/mnt,type=bind  bluetoothkeyboard/arduino-cli:latest arduino-cli
 
 ```
 
